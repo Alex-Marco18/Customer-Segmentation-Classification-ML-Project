@@ -59,17 +59,17 @@ Tabs and sidebar make the UI clean and interactive.
 customer_segmentation_classification/
 │
 ├── App/
-│   └── app.py                       # Streamlit web app for model deployment
+│   └── app.py                       # Streamlit web app for model deployment <br>
 │
 ├── Data/
 │   ├── raw/                         # Raw dataset (Mall Customers)
-│   └── processed/                   # Cleaned & transformed data
+│   └── processed/                   # Cleaned & transformed data<br>
 │
 ├── Model/
 │   ├── scaler.pkl                   # StandardScaler for input normalization
 │   ├── kmeans.pkl                   # KMeans clustering model
 │   ├── classifier.pkl               # Final classification model (RandomForest/XGBoost)
-│   └── features.pkl                 # Saved feature names
+│   └── features.pkl                 # Saved feature names <br>
 │
 ├── Notebooks/
 │   ├── 01_data_preprocessing.ipynb  # Data cleaning & feature engineering
