@@ -106,8 +106,3 @@ Real-time prediction output
 * 💾 Connect to database for storing customer data
 
 * 📊 Add visualization of new customer’s position among clusters
-
-## 🖼️ App Preview
-
-![App Preview](./customer_segmentation.jpg)
-
