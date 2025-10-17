@@ -107,5 +107,5 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
-![App Preview](r'C:\Users\Alex Marco\Downloads\Projects\Customer Segmentation\customer_segmentation.jpg')
+![App Preview]('customer_segmentation.jpg')
 
