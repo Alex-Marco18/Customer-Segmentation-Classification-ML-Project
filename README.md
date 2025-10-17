@@ -87,6 +87,7 @@ customer_segmentation_classification/
 └── .gitignore                       # Ignored files (venv, cache, etc.)
 
 
+
 ## 🧰 Tools & Libraries
 | Stage              | Libraries Used              |
 | ------------------ | --------------------------- |
@@ -138,4 +139,4 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
-![App Preview](./Customer Segmentation.JPG)
+![App Preview](./Customer_Segmentation.JPG)
