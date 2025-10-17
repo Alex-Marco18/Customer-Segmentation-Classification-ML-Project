@@ -58,33 +58,33 @@ Tabs and sidebar make the UI clean and interactive.
 ## 🗂 Project Structure
 customer_segmentation_classification/
 │
-├── Data/
-│   ├── raw/
-│   ├── processed/
-│
-├── Notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_clustering.ipynb
-│   ├── 03_classification.ipynb
-│
-├── Src/
-│   ├── data_preprocessing.py
-│   ├── clustering_model.py
-│   ├── classification_model.py
-│   ├── utils.py
-│
 ├── App/
-│   ├── stream.py
+│   └── app.py                       # Streamlit web app for model deployment
+│
+├── Data/
+│   ├── raw/                         # Raw dataset (Mall Customers)
+│   └── processed/                   # Cleaned & transformed data
 │
 ├── Model/
-│   ├── scaler.pkl
-│   ├── kmeans.pkl
-│   ├── random_forest_model.pkl
-│   ├── features.pkl
+│   ├── scaler.pkl                   # StandardScaler for input normalization
+│   ├── kmeans.pkl                   # KMeans clustering model
+│   ├── classifier.pkl               # Final classification model (XGBoost/RandomForest)
+│   └── features.pkl                 # Saved feature names
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── Notebooks/
+│   ├── 01_data_preprocessing.ipynb  # Data cleaning & feature engineering
+│   ├── 02_clustering.ipynb          # K-Means clustering for segmentation
+│   └── 03_classification.ipynb      # Supervised learning for classification
+│
+├── Src/
+│   ├── data_preprocessing.py        # Data preprocessing functions
+│   ├── clustering_model.py          # Unsupervised clustering code
+│   ├── classification_model.py      # Supervised model training
+│   └── utils.py                     # Helper functions and utilities
+│
+├── requirements.txt                 # Project dependencies
+├── README.md                        # Project documentation
+└── .gitignore                       # Ignored files (venv, cache, etc.)
 
 
 ## 🧰 Tools & Libraries
@@ -138,4 +138,4 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
-![App Preview](./screenshot.png)
+![App Preview](./Customer Segmentation.JPG)

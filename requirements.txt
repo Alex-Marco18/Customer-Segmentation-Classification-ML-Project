@@ -5,13 +5,5 @@ matplotlib
 seaborn
 plotly
 scikit-learn
-xgboost
 joblib
-scipy
 streamlit
-fastapi
-uvicorn
-python-dotenv
-tqdm
-pandas-profiling
-
