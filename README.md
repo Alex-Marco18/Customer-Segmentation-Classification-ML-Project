@@ -139,4 +139,5 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
-![App Preview](./Customer_Segmentation.JPG)
+![App Preview](./customer_segmentation.jpg)
+
