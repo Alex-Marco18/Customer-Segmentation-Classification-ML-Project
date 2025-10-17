@@ -68,7 +68,7 @@ customer_segmentation_classification/
 ├── Model/
 │   ├── scaler.pkl                   # StandardScaler for input normalization
 │   ├── kmeans.pkl                   # KMeans clustering model
-│   ├── classifier.pkl               # Final classification model (XGBoost/RandomForest)
+│   ├── classifier.pkl               # Final classification model (RandomForest/XGBoost)
 │   └── features.pkl                 # Saved feature names
 │
 ├── Notebooks/
