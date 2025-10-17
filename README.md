@@ -55,38 +55,6 @@ User enters Gender, Age, Income, and Spending Score.
 The app predicts their customer segment.
 Tabs and sidebar make the UI clean and interactive.
 
-## 🗂 Project Structure
-customer_segmentation_classification/<br>
-│
-├── App/<br>
-│   └── app.py                       # Streamlit web app for model deployment <br>
-│
-├── Data/<br>
-│   ├── raw/                         # Raw dataset (Mall Customers)<br>
-│   └── processed/                   # Cleaned & transformed data<br>
-│
-├── Model/<br>
-│   ├── scaler.pkl                   # StandardScaler for input normalization<br>
-│   ├── kmeans.pkl                   # KMeans clustering model<br>
-│   ├── classifier.pkl               # Final classification model (RandomForest/XGBoost)<br>
-│   └── features.pkl                 # Saved feature names <br>
-│
-├── Notebooks/
-│   ├── 01_data_preprocessing.ipynb  # Data cleaning & feature engineering
-│   ├── 02_clustering.ipynb          # K-Means clustering for segmentation
-│   └── 03_classification.ipynb      # Supervised learning for classification
-│
-├── Src/
-│   ├── data_preprocessing.py        # Data preprocessing functions
-│   ├── clustering_model.py          # Unsupervised clustering code
-│   ├── classification_model.py      # Supervised model training
-│   └── utils.py                     # Helper functions and utilities
-│
-├── requirements.txt                 # Project dependencies
-├── README.md                        # Project documentation
-└── .gitignore                       # Ignored files (venv, cache, etc.)
-
-
 
 ## 🧰 Tools & Libraries
 | Stage              | Libraries Used              |
@@ -139,5 +107,5 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
-![App Preview](./customer_segmentation.jpg)
+![App Preview](r'C:\Users\Alex Marco\Downloads\Projects\Customer Segmentation\customer_segmentation.jpg')
 
