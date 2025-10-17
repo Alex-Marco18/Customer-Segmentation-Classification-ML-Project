@@ -138,3 +138,4 @@ Real-time prediction output
 
 * 📊 Add visualization of new customer’s position among clusters
 
+![App Preview](./screenshot.png)
