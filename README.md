@@ -56,19 +56,19 @@ The app predicts their customer segment.
 Tabs and sidebar make the UI clean and interactive.
 
 ## 🗂 Project Structure
-customer_segmentation_classification/
+customer_segmentation_classification/<br>
 │
-├── App/
+├── App/<br>
 │   └── app.py                       # Streamlit web app for model deployment <br>
 │
-├── Data/
-│   ├── raw/                         # Raw dataset (Mall Customers)
+├── Data/<br>
+│   ├── raw/                         # Raw dataset (Mall Customers)<br>
 │   └── processed/                   # Cleaned & transformed data<br>
 │
-├── Model/
-│   ├── scaler.pkl                   # StandardScaler for input normalization
-│   ├── kmeans.pkl                   # KMeans clustering model
-│   ├── classifier.pkl               # Final classification model (RandomForest/XGBoost)
+├── Model/<br>
+│   ├── scaler.pkl                   # StandardScaler for input normalization<br>
+│   ├── kmeans.pkl                   # KMeans clustering model<br>
+│   ├── classifier.pkl               # Final classification model (RandomForest/XGBoost)<br>
 │   └── features.pkl                 # Saved feature names <br>
 │
 ├── Notebooks/
